@@ -11,6 +11,7 @@ MainInterface:
         pos: root.width-460, root.height-500
         size: 400, 400
     Image:
+        id: player_img
         source: "Player_1.png"
         pos: root.width-305, root.height-120
         size: 100, 25
@@ -23,72 +24,81 @@ MainInterface:
         Button:
             name: "1"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img1)
             Image:
+                id: img1
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "2"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img2)
             Image:
+                id: img2
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "3"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img3)
             Image:
+                id: img3
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "4"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img4)
             Image:
+                id: img4
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "5"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img5)
             Image:
+                id: img5
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "6"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img6)
             Image:
+                id: img6
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "7"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img7)
             Image:
+                id: img7
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "8"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img8)
             Image:
+                id: img8
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
         Button:
             name: "9"
             background_color: 0,0,0,0
-            on_press: root.tracking(self)
+            on_press: root.tracking(self, img9)
             Image:
+                id: img9
                 source: "Button.png"
                 size: 61.66, 75
                 center: self.parent.center
